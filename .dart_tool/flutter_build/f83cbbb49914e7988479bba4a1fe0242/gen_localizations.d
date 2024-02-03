@@ -1,0 +1,1 @@
+ /Users/alicegerasimenko/presents-test/.dart_tool/flutter_gen/gen_l10n/app_localizations_ru.dart /Users/alicegerasimenko/presents-test/.dart_tool/flutter_gen/gen_l10n/app_localizations.dart:  /Users/alicegerasimenko/presents-test/l10n.yaml /Users/alicegerasimenko/presents-test/lib/l10n/app_ru.arb
