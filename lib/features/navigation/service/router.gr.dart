@@ -26,6 +26,17 @@ abstract class _$AppRouter extends RootStackRouter {
         ),
       );
     },
+    EditHolidayRouter.name: (routeData) {
+      final args = routeData.argsAs<EditHolidayRouterArgs>(
+          orElse: () => const EditHolidayRouterArgs());
+      return AutoRoutePage<dynamic>(
+        routeData: routeData,
+        child: EditHolidayScreen(
+          key: args.key,
+          wmFactory: args.wmFactory,
+        ),
+      );
+    },
     GiftsGivenRouter.name: (routeData) {
       final args = routeData.argsAs<GiftsGivenRouterArgs>(
           orElse: () => const GiftsGivenRouterArgs());
@@ -133,6 +144,47 @@ class AddHolidayRouterArgs {
   @override
   String toString() {
     return 'AddHolidayRouterArgs{key: $key, wmFactory: $wmFactory}';
+  }
+}
+
+/// generated route for
+/// [EditHolidayScreen]
+class EditHolidayRouter extends PageRouteInfo<EditHolidayRouterArgs> {
+  EditHolidayRouter({
+    Key? key,
+    WidgetModel<ElementaryWidget<IWidgetModel>, ElementaryModel> Function(
+            BuildContext)
+        wmFactory = editHolidayScreenWidgetModelFactory,
+    List<PageRouteInfo>? children,
+  }) : super(
+          EditHolidayRouter.name,
+          args: EditHolidayRouterArgs(
+            key: key,
+            wmFactory: wmFactory,
+          ),
+          initialChildren: children,
+        );
+
+  static const String name = 'EditHolidayRouter';
+
+  static const PageInfo<EditHolidayRouterArgs> page =
+      PageInfo<EditHolidayRouterArgs>(name);
+}
+
+class EditHolidayRouterArgs {
+  const EditHolidayRouterArgs({
+    this.key,
+    this.wmFactory = editHolidayScreenWidgetModelFactory,
+  });
+
+  final Key? key;
+
+  final WidgetModel<ElementaryWidget<IWidgetModel>, ElementaryModel> Function(
+      BuildContext) wmFactory;
+
+  @override
+  String toString() {
+    return 'EditHolidayRouterArgs{key: $key, wmFactory: $wmFactory}';
   }
 }
 

@@ -31,10 +31,18 @@ class HolidaysScreenWidgetModel extends WidgetModel<HolidaysScreen, HolidaysScre
   void openNextScreen() {
     _appRouter.push(AddHolidayRouter());
   }
+
+  @override
+  void editHolidayScreen() {
+    _appRouter.push(EditHolidayRouter());
+  }
 }
 
 /// Interface of [IHolidaysScreenWidgetModel].
 abstract class IHolidaysScreenWidgetModel with ThemeIModelMixin implements IWidgetModel {
   /// Navigate to room screen.
   void openNextScreen();
+
+  /// Navigate to edit holiday screen.
+  void editHolidayScreen();
 }

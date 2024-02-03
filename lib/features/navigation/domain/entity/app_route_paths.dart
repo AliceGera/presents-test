@@ -27,8 +27,11 @@ abstract class AppRoutePaths {
   /// Path to settings screen.
   static const String settingsPath = 'settings';
 
-  /// Path to holidays screen.
+  /// Path to add holiday screen.
   static const String addHolidayPath = '/addHoliday';
+
+  /// Path to edit holiday screen.
+  static const String editHolidayPath = '/editHoliday';
 
   /// Path to logs history screen.
   static const String logHistory = '/logHistory';

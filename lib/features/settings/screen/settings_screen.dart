@@ -1,6 +1,10 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:elementary/elementary.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
+import 'package:flutter_template/assets/colors/app_colors.dart';
+import 'package:flutter_template/assets/res/resources.dart';
+import 'package:flutter_template/assets/text/text_style.dart';
 import 'package:flutter_template/features/navigation/domain/entity/app_route_names.dart';
 import 'package:flutter_template/features/settings/screen/settings_screen_widget_model.dart';
 
@@ -18,6 +22,16 @@ class SettingsScreen extends ElementaryWidget<ISettingsScreenWidgetModel> {
   @override
   Widget build(ISettingsScreenWidgetModel wm) {
     return Scaffold(
+      appBar: AppBar(
+        centerTitle: false,
+        backgroundColor: AppColors.backgroundColor,
+        title: Center(
+          child: Text(
+            'Settings',
+            style: AppTextStyle.bold19.value.copyWith(color: AppColors.white),
+          ),
+        ),
+      ),
       body: _Body(),
     );
   }
@@ -29,9 +43,59 @@ class _Body extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(8),
-      child: SingleChildScrollView(
-        child: Column(),
+      padding: const EdgeInsets.symmetric(horizontal: 16),
+      child: Column(
+        children: [
+          Padding(
+            padding: const EdgeInsets.only(top: 24),
+            child: Container(
+              width: double.infinity,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(16),
+                color: AppColors.darkBlue,
+              ),
+              child: Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                child: Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 16),
+                      child: Row(
+                        children: [
+                          SvgPicture.asset(SvgIcons.privacy),
+                          const SizedBox(width: 16),
+                          Text('Privacy policy', style: AppTextStyle.regular14.value.copyWith(color: AppColors.white)),
+                        ],
+                      ),
+                    ),
+                    const Divider(color: AppColors.gray),
+                    Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 16),
+                      child: Row(
+                        children: [
+                          SvgPicture.asset(SvgIcons.userAgreement),
+                          const SizedBox(width: 16),
+                          Text('User agreement', style: AppTextStyle.regular14.value.copyWith(color: AppColors.white)),
+                        ],
+                      ),
+                    ),
+                    const Divider(color: AppColors.gray),
+                    Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 16),
+                      child: Row(
+                        children: [
+                          SvgPicture.asset(SvgIcons.rateApp),
+                          const SizedBox(width: 16),
+                          Text('Rate the app', style: AppTextStyle.regular14.value.copyWith(color: AppColors.white)),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }

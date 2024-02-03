@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f9396e9-9b7b-4f2a-8764-a3736777b575" name="Changes" comment="Added bottom navigation bar and 5 main screens." />
+    <list default="true" id="5f9396e9-9b7b-4f2a-8764-a3736777b575" name="Changes" comment="Small fix.">
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/f83cbbb49914e7988479bba4a1fe0242/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/f83cbbb49914e7988479bba4a1fe0242/.filecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/f83cbbb49914e7988479bba4a1fe0242/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/f83cbbb49914e7988479bba4a1fe0242/app.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/f83cbbb49914e7988479bba4a1fe0242/debug_ios_bundle_flutter_assets.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/f83cbbb49914e7988479bba4a1fe0242/debug_ios_bundle_flutter_assets.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/f83cbbb49914e7988479bba4a1fe0242/flutter_assets.d" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/f83cbbb49914e7988479bba4a1fe0242/flutter_assets.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/f83cbbb49914e7988479bba4a1fe0242/kernel_snapshot.d" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/f83cbbb49914e7988479bba4a1fe0242/kernel_snapshot.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/f83cbbb49914e7988479bba4a1fe0242/kernel_snapshot.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/f83cbbb49914e7988479bba4a1fe0242/kernel_snapshot.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/assets/colors/app_colors.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/assets/colors/app_colors.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/assets/res/svg_icons.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/assets/res/svg_icons.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/holidays/screen/holidays_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/holidays/screen/holidays_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/holidays/screen/holidays_screen_wm.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/holidays/screen/holidays_screen_wm.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/navigation/domain/entity/app_route_names.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/navigation/domain/entity/app_route_names.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/navigation/domain/entity/app_route_paths.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/navigation/domain/entity/app_route_paths.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/navigation/domain/entity/holidays/dash_routes.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/navigation/domain/entity/holidays/holidays_routes.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/navigation/domain/entity/temp/temp_routes.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/navigation/domain/entity/temp/temp_routes.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/navigation/service/router.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/navigation/service/router.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/navigation/service/router.gr.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/navigation/service/router.gr.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/settings/screen/settings_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/settings/screen/settings_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/temp/screens/temp_screen/temp_screen_widget_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/temp/screens/temp_screen/temp_screen_widget_model.dart" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,8 +50,15 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assets/icons" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Assets/icons" />
+      <recent name="$PROJECT_DIR$/lib/features/navigation/domain/entity" />
+      <recent name="$PROJECT_DIR$/lib/features" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
@@ -61,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706982544553</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Small fix.">
+      <created>1706982688069</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706982688069</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -78,6 +113,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="base structure." />
     <MESSAGE value="Added bottom navigation bar and 5 main screens." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added bottom navigation bar and 5 main screens." />
+    <MESSAGE value="Small fix." />
+    <option name="LAST_COMMIT_MESSAGE" value="Small fix." />
   </component>
 </project>
